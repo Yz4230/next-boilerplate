@@ -33,6 +33,8 @@ const config = {
     "prettier",
   ],
   rules: {
+    // disable `@next/next/no-img-element` to use `<img>` elements
+    "@next/next/no-img-element": "off",
     "react/self-closing-comp": "error",
     "react/prop-types": "off",
     "import/order": [
